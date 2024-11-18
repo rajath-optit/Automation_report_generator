@@ -1,0 +1,552 @@
+title,control_title,category,priority
+Account,Security contact information should be provided for an AWS account,Compliance,p1
+Account,AWS account should be part of AWS Organizations,Compliance,p1
+ACM,ACM certificates should not expire within 30 days,Compliance,p1
+ACM,Ensure that ACM certificates are not in failed state,Compliance,p1
+ACM,Ensure that ACM certificates are not in pending validation state,Compliance,p1
+ACM,ACM certificates should not use wildcard certificates,Compliance,p1
+ACM,Ensure that all the expired ACM certificates are removed,Compliance,p1
+ACM,ACM certificates should have transparency logging enabled,Compliance,p1
+ACM,ACM certificates should not expire within 30 days,Compliance,p1
+ACM,Ensure that ACM certificates are not in failed state,Compliance,p1
+ACM,Ensure that ACM certificates are not in pending validation state,Compliance,p1
+ACM,ACM certificates should not use wildcard certificates,Compliance,p1
+ACM,Ensure that all the expired ACM certificates are removed,Compliance,p1
+ACM,ACM certificates should have transparency logging enabled,Compliance,p1
+API Gateway,API Gateway methods authorizer should be configured,Compliance,p1
+API Gateway,API Gateway REST API public endpoints should be configured with authorizer,Compliance,p1
+API Gateway,API Gateway routes should specify an authorization type,Compliance,p1
+API Gateway,API Gateway stages should have authorizers configured,Compliance,p1
+API Gateway,API Gateway REST API endpoint type should be configured to private,Compliance,p1
+API Gateway,API Gateway stage should uses SSL certificate,Compliance,p1
+API Gateway,API Gateway stage cache encryption at rest should be enabled,Compliance,p1
+API Gateway,API Gateway stage logging should be enabled,Compliance,p1
+API Gateway,API Gateway stage should be associated with waf,Compliance,p1
+AppStream,AppStream fleet default internet access should be disabled,Compliance,p1
+AppSync,AppSync graphql API logging should be enabled,Compliance,p1
+Auto Scaling,Auto Scaling groups with a load balancer should use health checks,Compliance,p1
+Auto Scaling,Auto Scaling launch config public IP should be disabled,Compliance,p1
+Auto Scaling,Auto Scaling group should configure EC2 instances to require Instance Metadata Service Version 2 (IMDSv2),Compliance,p1
+Auto Scaling,Auto Scaling groups with a load balancer should use health checks,Compliance,p1
+Auto Scaling,Auto Scaling launch config public IP should be disabled,Compliance,p1
+Auto Scaling,Auto Scaling group should configure EC2 instances to require Instance Metadata Service Version 2 (IMDSv2),Compliance,p1
+Backup,Backup recovery points should be encrypted,Compliance,p1
+Backup,Backup recovery points should not expire before retention period,Compliance,p1
+CloudFormation,CloudFormation stacks outputs should not have any secrets,Compliance,p1
+CloudFront,CloudFront distributions should have origin failover configured,Compliance,p1
+CloudFront,CloudFront distributions should encrypt traffic to custom origins,Compliance,p1
+CloudFront,CloudFront distributions should have latest TLS version,Compliance,p1
+CloudFront,CloudFront distributions access logs should be enabled,Compliance,p1
+CloudFront,CloudFront distributions should not use deprecated SSL protocols between edge locations and custom origins,Compliance,p1
+CloudFront,CloudFront distributions should use secure SSL cipher,Compliance,p1
+CloudFront,CloudFront distributions should have AWS WAF enabled,Compliance,p1
+CloudTrail,Ensure the S3 bucket CloudTrail logs to is not publicly accessible,Compliance,p1
+CloudTrail,At least one multi-region AWS CloudTrail should be present in an account,Compliance,p1
+CloudTrail,All S3 buckets should log S3 data events in CloudTrail,Compliance,p1
+CloudTrail,Ensure S3 bucket access logging is enabled on the CloudTrail S3 bucket,Compliance,p1
+CloudTrail,Ensure that Object-level logging for read events is enabled for S3 bucket,Compliance,p1
+CloudTrail,Ensure that Object-level logging for write events is enabled for S3 bucket,Compliance,p1
+CloudTrail,At least one trail should be enabled with security best practices,Compliance,p1
+CloudTrail,At least one enabled trail should be present in a region,Compliance,p1
+CloudTrail,CloudTrail trails should be integrated with CloudWatch logs,Compliance,p1
+CloudTrail,CloudTrail trail logs should be encrypted with KMS CMK,Compliance,p1
+CloudTrail,CloudTrail trail log file validation should be enabled,Compliance,p1
+CloudWatch,CloudWatch alarm should have an action configured,Compliance,p1
+CloudWatch,CloudWatch should not allow cross-account sharing,Compliance,p1
+CloudWatch,Log group retention period should be at least 365 days,Compliance,p1
+CloudWatch,Log group encryption at rest should be enabled,Compliance,p1
+CloudWatch,Ensure a log metric filter and alarm exist for AWS Management Console sign-in without MFA,Compliance,p1
+CloudWatch,Ensure a log metric filter and alarm exist for unauthorized API calls,Compliance,p1
+CodeBuild,CodeBuild project artifact encryption should be enabled,Compliance,p1
+CodeBuild,CodeBuild projects should not be unused for 90 days or greater,Compliance,p1
+CodeBuild,CodeBuild project plaintext environment variables should not contain sensitive AWS values,Compliance,p1
+CodeBuild,CodeBuild project S3 logs should be encrypted,Compliance,p1
+CodeBuild,CodeBuild projects should not use an user controlled buildspec,Compliance,p1
+Config,AWS Config should be enabled,Compliance,p1
+DAX,DynamoDB Accelerator (DAX) clusters should be encrypted at rest,Compliance,p1
+DAX,Directory Service certificates should not expire within 90 days,Compliance,p1
+DMS,DMS endpoints should use SSL,Compliance,p1
+DMS,DMS replication instances should not be publicly accessible,Compliance,p1
+DMS,DMS replication tasks for the source database should have logging enabled,Compliance,p1
+DMS,DMS replication tasks for the target database should have logging enabled,Compliance,p1
+DocumentDB,AWS DocumentDB clusters should be encrypted at rest,Compliance,p1
+DocumentDB,DocumentDB instance logging should be enabled,Compliance,p1
+DocumentDB,Amazon DocumentDB manual cluster snapshots should not be public,Compliance,p1
+DynamoDB,DynamoDB table should be encrypted with AWS KMS,Compliance,p1
+DynamoDB,DynamoDB table should have encryption enabled,Compliance,p1
+DynamoDB,DynamoDB table point-in-time recovery should be enabled,Compliance,p1
+EBS,Attached EBS volumes should have encryption enabled,Compliance,p1
+EBS,EBS snapshots should be encrypted,Compliance,p1
+EBS,EBS snapshots should not be publicly restorable,Compliance,p1
+EBS,EBS volume encryption at rest should be enabled,Compliance,p1
+EBS,EBS volumes should be attached to EC2 instances,Compliance,p1
+EC2,EBS default encryption should be enabled,Compliance,p1
+EC2,Ensure EBS volumes attached to an EC2 instance is marked for deletion upon instance termination,Compliance,p1
+EC2,EC2 instances should have IAM profile attached,Compliance,p1
+EC2,EC2 instances should be in a VPC,Compliance,p1
+EC2,EC2 instance IAM role should not allow data destruction access,Compliance,p1
+EC2,EC2 instances should not be attached to 'launch wizard' security groups,Compliance,p1
+EC2,EC2 instances should not have a public IP address,Compliance,p1
+EC2,EC2 instances should not use multiple ENIs,Compliance,p1
+EC2,EC2 instances should be protected by backup plan,Compliance,p1
+EC2,Public EC2 instances should have IAM profile attached,Compliance,p1
+EC2,AWS EC2 instances should have termination protection enabled,Compliance,p1
+EC2,EC2 instances should use IMDSv2,Compliance,p1
+EC2,EC2 stopped instances should be removed in 30 days,Compliance,p1
+ECR,ECR repositories should have image scan on push enabled,Compliance,p1
+ECR,ECR repositories should have lifecycle policies configured,Compliance,p1
+ECR,ECR repositories should prohibit public access,Compliance,p1
+ECR,ECR private repositories should have tag immutability configured,Compliance,p1
+ECS,ECS clusters should have container insights enabled,Compliance,p1
+ECS,ECS fargate services should run on the latest fargate platform version,Compliance,p1
+ECS,ECS containers should run as non-privileged,Compliance,p1
+ECS,ECS containers should be limited to read-only access to root filesystems,Compliance,p1
+ECS,ECS task definitions should not use root user.,Compliance,p1
+ECS,ECS task definition container definitions should be checked for host mode,Compliance,p1
+EFS,EFS file system encryption at rest should be enabled,Compliance,p1
+EFS,EFS file systems should enforce SSL,Compliance,p1
+EFS,EFS file systems should be in a backup plan,Compliance,p1
+EFS,EFS file systems should restrict public access,Compliance,p1
+EKS,EKS clusters should have control plane audit logging enabled,Compliance,p1
+EKS,EKS clusters endpoint public access should be restricted,Compliance,p1
+EKS,EKS clusters endpoint should restrict public access,Compliance,p1
+EKS,EKS clusters should not be configured within a default VPC,Compliance,p1
+EKS,EKS clusters should be configured to have kubernetes secrets encrypted using KMS,Compliance,p1
+EKS,EKS clusters should run on a supported Kubernetes version,Compliance,p1
+ElastiCache,ElastiCache clusters should not use public_subnet,Compliance,p1
+ElastiCache,ElastiCache for Redis replication groups should have automatic failover enabled,Compliance,p1
+ElastiCache,ElastiCache for Redis replication groups should be encrypted at rest,Compliance,p1
+ElastiCache,ElastiCache for Redis replication groups should be encrypted in transit,Compliance,p1
+ElastiCache,Elastic Beanstalk should stream logs to CloudWatch,Compliance,p1
+ElastiCache,Elastic Beanstalk environment should have managed updates enabled,Compliance,p1
+Elasticsearch,Elasticsearch domains should have audit logging enabled,Compliance,p1
+Elasticsearch,Connections to Elasticsearch domains should be encrypted using TLS 1.2,Compliance,p1
+Elasticsearch,ES domain encryption at rest should be enabled,Compliance,p1
+Elasticsearch,Elasticsearch domain error logging to CloudWatch Logs should be enabled,Compliance,p1
+Elasticsearch,ES domains should be in a VPC,Compliance,p1
+Elasticsearch,Elasticsearch domain should send logs to CloudWatch,Compliance,p1
+Elasticsearch,Elasticsearch domain node-to-node encryption should be enabled,Compliance,p1
+ELB,ELB application and classic load balancer logging should be enabled,Compliance,p1
+ELB,ELB load balancers should prohibit public access,Compliance,p1
+ELB,ELB application load balancer deletion protection should be enabled,Compliance,p1
+ELB,ELB application load balancers should be drop HTTP headers,Compliance,p1
+ELB,ELB application load balancers should redirect HTTP requests to HTTPS,Compliance,p1
+ELB,ELB application load balancers should have Web Application Firewall (WAF) enabled,Compliance,p1
+ELB,ELB application and network load balancers should only use SSL or HTTPS listeners,Compliance,p1
+ELB,ELB classic load balancers should use SSL certificates,Compliance,p1
+ELB,ELB classic load balancers should only use SSL or HTTPS listeners,Compliance,p1
+ELB,ELB listeners should use secure SSL cipher,Compliance,p1
+EMR,EMR public access should be blocked at account level,Compliance,p1
+EMR,EMR clusters encryption at rest should be enabled,Compliance,p1
+EMR,EMR cluster Kerberos should be enabled,Compliance,p1
+EMR,EMR cluster local disks should be encrypted with CMK,Compliance,p1
+EMR,EMR cluster master nodes should not have public IP addresses,Compliance,p1
+EMR,EMR clusters should have security configuration enabled,Compliance,p1
+FSx,FSx for OpenZFS file systems should be configured to copy tags to backups and volumes,Compliance,p1
+Glacier,Glacier vault should restrict public access,Compliance,p1
+Glue,Glue connection SSL should be enabled,Compliance,p1
+Glue,Glue data catalog metadata encryption should be enabled,Compliance,p1
+Glue,Glue data catalog connection password encryption should be enabled,Compliance,p1
+Glue,Glue dev endpoints CloudWatch logs encryption should be enabled,Compliance,p1
+Glue,Glue dev endpoints job bookmark encryption should be enabled,Compliance,p1
+Glue,Glue dev endpoints S3 encryption should be enabled,Compliance,p1
+Glue,Glue jobs bookmarks encryption should be enabled,Compliance,p1
+Glue,Glue jobs CloudWatch logs encryption should be enabled,Compliance,p1
+Glue,Glue jobs S3 encryption should be enabled,Compliance,p1
+GuardDuty,GuardDuty Detector should be centrally configured,Compliance,p1
+GuardDuty,GuardDuty should be enabled,Compliance,p1
+GuardDuty,GuardDuty findings should be archived,Compliance,p1
+GuardDuty,GuardDuty Detector should not have high severity findings,Compliance,p1
+IAM,Ensure IAM password policy requires a minimum length of 14 or greater,Compliance,p1
+IAM,Ensure IAM password policy requires at least one lowercase letter,Compliance,p1
+IAM,Ensure IAM password policy requires at least one number,Compliance,p1
+IAM,Ensure IAM password policy requires at least one symbol,Compliance,p1
+IAM,Ensure IAM password policy requires at least one uppercase letter,Compliance,p1
+IAM,Password policies for IAM users should have strong configurations with minimum length of 8 or greater,Compliance,p1
+IAM,IAM groups should have at least one user,Compliance,p1
+IAM,Ensure IAM password policy expires passwords within 90 days or less,Compliance,p1
+IAM,"Ensure IAM policies that allow full ""*:*"" administrative privileges are not attached",Compliance,p1
+IAM,Ensure managed IAM policies should not allow blocked actions on KMS keys,Compliance,p1
+IAM,IAM policy should not have statements with admin access,Compliance,p1
+IAM,Eliminate use of the 'root' user for administrative and daily tasks,Compliance,p1
+IAM,IAM root user hardware MFA should be enabled,Compliance,p1
+IAM,IAM root user MFA should be enabled,Compliance,p1
+IAM,IAM root user should not have access keys,Compliance,p1
+IAM,Ensure a support role has been created to manage incidents with AWS Support,Compliance,p1
+IAM,IAM user access keys should be rotated at least every 90 days,Compliance,p1
+IAM,Ensure IAM users with access keys unused for 45 days or greater are disabled,Compliance,p1
+IAM,IAM users with console access should have MFA enabled,Compliance,p1
+IAM,Ensure IAM users with console access unused for 45 days or greater are disabled,Compliance,p1
+IAM,IAM users should have hardware MFA enabled,Compliance,p1
+IAM,IAM user MFA should be enabled,Compliance,p1
+IAM,Ensure IAM policies are attached only to groups or roles,Compliance,p1
+IAM,Ensure credentials unused for 45 days or greater are disabled,Compliance,p1
+IAM,IAM user credentials that have not been used in 90 days should be disabled,Compliance,p1
+IAM,IAM administrator users should have MFA enabled,Compliance,p1
+Kinesis,Kinesis firehose delivery streams should have server side encryption enabled,Compliance,p1
+Kinesis,Kinesis streams should be encrypted with CMK,Compliance,p1
+Kinesis,Kinesis streams should have server side encryption enabled,Compliance,p1
+KMS,KMS CMK policies should prohibit public access,Compliance,p1
+KMS,KMS CMK rotation should be enabled,Compliance,p1
+KMS,KMS key decryption should be restricted in IAM customer managed policy,Compliance,p1
+KMS,KMS key decryption should be restricted in IAM inline policy,Compliance,p1
+KMS,KMS keys should not be pending deletion,Compliance,p1
+Lambda,Lambda functions CloudTrail logging should be enabled,Compliance,p1
+Lambda,Ensure Cloudwatch Lambda insights is enabled,Compliance,p1
+Lambda,Lambda functions concurrent execution limit configured,Compliance,p1
+Lambda,Lambda functions should be configured with a dead-letter queue,Compliance,p1
+Lambda,Ensure encryption in transit is enabled for Lambda environment variables,Compliance,p1
+Lambda,Lambda functions should be in a VPC,Compliance,p1
+Lambda,Lambda functions should restrict public access,Compliance,p1
+Lambda,Lambda functions tracing should be enabled,Compliance,p1
+Lambda,Lambda functions variable should not have any sensitive data,Compliance,p1
+Lightsail,Ensure RDP is restricted to only IP address that should have this access,Compliance,p1
+Lightsail,Disable SSH and RDP ports for Lightsail instances when not needed,Compliance,p1
+Lightsail,Ensure SSH is restricted to only IP address that should have this access,Compliance,p1
+MQ,MQ brokers should restrict public access,Compliance,p1
+MSK,MSK clusters should be encrypted in transit among broker nodes,Compliance,p1
+Neptune,Neptune DB clusters should publish audit logs to CloudWatch Logs,Compliance,p1
+Neptune,Neptune DB clusters should have automated backups enabled,Compliance,p1
+Neptune,Neptune DB clusters should be encrypted at rest,Compliance,p1
+Neptune,Neptune DB clusters should have IAM database authentication enabled,Compliance,p1
+Neptune,Neptune DB cluster snapshots should be encrypted at rest,Compliance,p1
+Network Firewall,Network Firewall logging should be enabled,Compliance,p1
+Network Firewall,The default stateless action for Network Firewall policies should be drop or forward for fragmented packets,Compliance,p1
+Network Firewall,The default stateless action for Network Firewall policies should be drop or forward for full packets,Compliance,p1
+Network Firewall,Network Firewall policies should have at least one rule group associated,Compliance,p1
+Network Firewall,Stateless network firewall rule group should not be empty,Compliance,p1
+OpenSearch,OpenSearch domains should have audit logging enabled.,Compliance,p1
+OpenSearch,OpenSearch domains cognito authentication should be enabled for kibana,Compliance,p1
+OpenSearch,OpenSearch domains should have encryption at rest enabled,Compliance,p1
+OpenSearch,OpenSearch domains should have fine-grained access control enabled,Compliance,p1
+OpenSearch,OpenSearch domains should use HTTPS,Compliance,p1
+OpenSearch,OpenSearch domains should be in a VPC,Compliance,p1
+OpenSearch,OpenSearch domains internal user database should be disabled,Compliance,p1
+OpenSearch,OpenSearch domains logs to AWS CloudWatch Logs,Compliance,p1
+OpenSearch,OpenSearch domains node-to-node encryption should be enabled,Compliance,p1
+Operational Excellence,API Gateway stage logging should be enabled,AWS Well-Architected Framework,p1
+Operational Excellence,Auto Scaling groups with a load balancer should use health checks,AWS Well-Architected Framework,p1
+Operational Excellence,CloudFront distributions access logs should be enabled,AWS Well-Architected Framework,p1
+Operational Excellence,ELB application and classic load balancer logging should be enabled,AWS Well-Architected Framework,p1
+Operational Excellence,RDS DB instances should be integrated with CloudWatch logs,AWS Well-Architected Framework,p1
+Operational Excellence,At least one enabled trail should be present in a region,AWS Well-Architected Framework,p1
+Operational Excellence,CloudTrail trails should be integrated with CloudWatch logs,AWS Well-Architected Framework,p1
+Operational Excellence,CloudWatch alarm should have an action configured,AWS Well-Architected Framework,p1
+Operational Excellence,AWS Config should be enabled,AWS Well-Architected Framework,p1
+Operational Excellence,SSM managed instance patching should be compliant,AWS Well-Architected Framework,p1
+Organization,Ensure Tag Policies are enabled,Compliance,p1
+Organization,Private Certificate Authority,Compliance,p1
+Organization,AWS Private CA root certificate authority should be disabled,Compliance,p1
+RDS,RDS clusters should have deletion protection enabled,Compliance,p1
+RDS,RDS DB clusters should be encrypted with CMK,Compliance,p1
+RDS,RDS DB clusters should be encrypted at rest,Compliance,p1
+RDS,IAM authentication should be configured for RDS clusters,Compliance,p1
+RDS,RDS DB clusters should be configured for multiple Availability Zones,Compliance,p1
+RDS,RDS database clusters should use a custom administrator username,Compliance,p1
+RDS,RDS databases and clusters should not use a database engine default port,Compliance,p1
+RDS,RDS DB instance automatic minor version upgrade should be enabled,Compliance,p1
+RDS,RDS DB instance backup should be enabled,Compliance,p1
+RDS,RDS DB instances should be integrated with CloudWatch logs,Compliance,p1
+RDS,RDS DB instance encryption at rest should be enabled,Compliance,p1
+RDS,RDS instances should be deployed in a VPC,Compliance,p1
+RDS,Database logging should be enabled,Compliance,p1
+RDS,RDS database instances should use a custom administrator username,Compliance,p1
+RDS,RDS DB instances should prohibit public access,Compliance,p1
+RDS,RDS DB snapshots should be encrypted at rest,Compliance,p1
+RDS,RDS snapshots should prohibit public access,Compliance,p1
+Redshift,AWS Redshift audit logging should be enabled,Compliance,p1
+Redshift,Redshift clusters should be encrypted with CMK,Compliance,p1
+Redshift,Redshift cluster encryption in transit should be enabled,Compliance,p1
+Redshift,AWS Redshift enhanced VPC routing should be enabled,Compliance,p1
+Redshift,AWS Redshift clusters should be encrypted with KMS,Compliance,p1
+Redshift,AWS Redshift should have required maintenance settings,Compliance,p1
+Redshift,Redshift clusters should prohibit public access,Compliance,p1
+Reliability,Lambda functions concurrent execution limit configured,AWS Well-Architected Framework,p1
+Reliability,CloudFront distributions should have origin failover configured,AWS Well-Architected Framework,p1
+Reliability,CloudFront distributions should have AWS WAF enabled,AWS Well-Architected Framework,p1
+Reliability,RDS DB clusters should be configured for multiple Availability Zones,AWS Well-Architected Framework,p1
+Reliability,EC2 instances should be in a VPC,AWS Well-Architected Framework,p1
+Reliability,ES domains should be in a VPC,AWS Well-Architected Framework,p1
+Reliability,Lambda functions should be in a VPC,AWS Well-Architected Framework,p1
+Reliability,AWS Redshift enhanced VPC routing should be enabled,AWS Well-Architected Framework,p1
+Reliability,API Gateway stage logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,ACM certificates should have transparency logging enabled,AWS Well-Architected Framework,p1
+Reliability,ELB application and classic load balancer logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,Lambda functions CloudTrail logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,OpenSearch domains should have audit logging enabled.,AWS Well-Architected Framework,p1
+Reliability,Database logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,Route 53 zones should have query logging enabled,AWS Well-Architected Framework,p1
+Reliability,S3 bucket logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,S3 buckets object logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,WAF web ACL logging should be enabled,AWS Well-Architected Framework,p1
+Reliability,ECS clusters should have container insights enabled,AWS Well-Architected Framework,p1
+Reliability,RDS DB instance automatic minor version upgrade should be enabled,AWS Well-Architected Framework,p1
+Reliability,Backup recovery points should be encrypted,AWS Well-Architected Framework,p1
+Reliability,DynamoDB table should have encryption enabled,AWS Well-Architected Framework,p1
+Reliability,EBS default encryption should be enabled,AWS Well-Architected Framework,p1
+Reliability,EBS volume encryption at rest should be enabled,AWS Well-Architected Framework,p1
+Reliability,RDS DB instance encryption at rest should be enabled,AWS Well-Architected Framework,p1
+Reliability,RDS DB snapshots should be encrypted at rest,AWS Well-Architected Framework,p1
+Reliability,S3 bucket default encryption should be enabled,AWS Well-Architected Framework,p1
+Reliability,Backup recovery points should not expire before retention period,AWS Well-Architected Framework,p1
+Reliability,DynamoDB table point-in-time recovery should be enabled,AWS Well-Architected Framework,p1
+Reliability,EC2 instances should be protected by backup plan,AWS Well-Architected Framework,p1
+Reliability,RDS DB instance backup should be enabled,AWS Well-Architected Framework,p1
+Route 53,Route53 domains privacy protection should be enabled,Compliance,p1
+Route 53,Route 53 domains should have transfer lock enabled,Compliance,p1
+Route 53,Route 53 zones should have query logging enabled,Compliance,p1
+S3,S3 buckets access control lists (ACLs) should not be used to manage user access to buckets,Compliance,p1
+S3,S3 bucket default encryption should be enabled,Compliance,p1
+S3,S3 bucket default encryption should be enabled with KMS,Compliance,p1
+S3,S3 buckets should enforce SSL,Compliance,p1
+S3,S3 bucket logging should be enabled,Compliance,p1
+S3,S3 bucket ACLs should not be accessible to all authenticated user,Compliance,p1
+S3,S3 buckets object logging should be enabled,Compliance,p1
+S3,S3 bucket policy should prohibit public access,Compliance,p1
+S3,S3 buckets should prohibit public write access,Compliance,p1
+S3,S3 bucket versioning should be enabled,Compliance,p1
+S3,S3 public access should be blocked at account level,Compliance,p1
+S3,S3 public access should be blocked at account and bucket levels,Compliance,p1
+SageMaker,SageMaker endpoint configuration encryption should be enabled,Compliance,p1
+SageMaker,SageMaker models should be in a VPC,Compliance,p1
+SageMaker,SageMaker models should have network isolation enabled,Compliance,p1
+SageMaker,SageMaker notebook instances should not have direct internet access,Compliance,p1
+SageMaker,SageMaker notebook instances should be encrypted using CMK,Compliance,p1
+SageMaker,SageMaker notebook instance encryption should be enabled,Compliance,p1
+SageMaker,SageMaker notebook instances should be in a VPC,Compliance,p1
+SageMaker,SageMaker training jobs should be in VPC,Compliance,p1
+SageMaker,SageMaker training jobs should be enabled with inter-container traffic encryption,Compliance,p1
+SageMaker,SageMaker training jobs should have network isolation enabled,Compliance,p1
+SageMaker,SageMaker training jobs volumes and outputs should have KMS encryption enabled,Compliance,p1
+Secrets Manager,Secrets Manager secrets should have automatic rotation enabled,Compliance,p1
+Secrets Manager,Secrets Manager secrets should be encrypted using CMK,Compliance,p1
+Secrets Manager,Secrets Manager secrets that have not been used in 90 days should be removed,Compliance,p1
+Security,AWS account should be part of AWS Organizations,AWS Well-Architected Framework,p1
+Security,BP02 Secure account root user and properties,AWS Well-Architected Framework,p1
+Security,IAM root user hardware MFA should be enabled,AWS Well-Architected Framework,p1
+Security,IAM root user MFA should be enabled,AWS Well-Architected Framework,p1
+Security,IAM root user should not have access keys,AWS Well-Architected Framework,p1
+Security,EC2 instances should be managed by AWS Systems Manager,AWS Well-Architected Framework,p1
+Security,ECR repositories should have image scan on push enabled,AWS Well-Architected Framework,p1
+Security,CodeBuild project plaintext environment variables should not contain sensitive AWS values,AWS Well-Architected Framework,p1
+Security,EC2 instances should use IMDSv2,AWS Well-Architected Framework,p1
+Security,EC2 instances should have IAM profile attached,AWS Well-Architected Framework,p1
+Security,ECS task definition container definitions should be checked for host mode,AWS Well-Architected Framework,p1
+Security,CloudWatch should not allow cross-account sharing,AWS Well-Architected Framework,p1
+Security,ECS containers should be limited to read-only access to root filesystems,AWS Well-Architected Framework,p1
+Security,EMR cluster Kerberos should be enabled,AWS Well-Architected Framework,p1
+Security,EC2 instances should have IAM profile attached,AWS Well-Architected Framework,p1
+Security,IAM groups should have at least one user,AWS Well-Architected Framework,p1
+Security,Ensure managed IAM policies should not allow blocked actions on KMS keys,AWS Well-Architected Framework,p1
+Security,IAM policy should not have statements with admin access,AWS Well-Architected Framework,p1
+Security,AWS account should be part of AWS Organizations,AWS Well-Architected Framework,p1
+Security,IAM user credentials that have not been used in 90 days should be disabled,AWS Well-Architected Framework,p1
+Security,IAM user credentials that have not been used in 90 days should be disabled,AWS Well-Architected Framework,p1
+Security,DMS replication instances should not be publicly accessible,AWS Well-Architected Framework,p1
+Security,Log group retention period should be at least 365 days,AWS Well-Architected Framework,p1
+Security,CodeBuild projects should not be unused for 90 days or greater,AWS Well-Architected Framework,p1
+Security,ECR repositories should have lifecycle policies configured,AWS Well-Architected Framework,p1
+Security,Ensure IAM password policy expires passwords within 90 days or less,AWS Well-Architected Framework,p1
+Security,DMS replication instances should not be publicly accessible,AWS Well-Architected Framework,p1
+Security,EBS snapshots should not be publicly restorable,AWS Well-Architected Framework,p1
+Security,EC2 instances should not have a public IP address,AWS Well-Architected Framework,p1
+Security,ES domains should be in a VPC,AWS Well-Architected Framework,p1
+Security,OpenSearch domains should be in a VPC,AWS Well-Architected Framework,p1
+Security,EMR cluster master nodes should not have public IP addresses,AWS Well-Architected Framework,p1
+Security,EMR public access should be blocked at account level,AWS Well-Architected Framework,p1
+Security,EC2 instances should be in a VPC,AWS Well-Architected Framework,p1
+Security,Lambda functions should restrict public access,AWS Well-Architected Framework,p1
+Security,Lambda functions should be in a VPC,AWS Well-Architected Framework,p1
+Security,RDS DB instances should prohibit public access,AWS Well-Architected Framework,p1
+Security,RDS snapshots should prohibit public access,AWS Well-Architected Framework,p1
+Security,KMS CMK policies should prohibit public access,AWS Well-Architected Framework,p1
+Security,Redshift clusters should prohibit public access,AWS Well-Architected Framework,p1
+Security,S3 bucket policy should prohibit public access,AWS Well-Architected Framework,p1
+Security,S3 buckets should prohibit public write access,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instances should not have direct internet access,AWS Well-Architected Framework,p1
+Security,Secrets Manager secrets that have not been used in 90 days should be removed,AWS Well-Architected Framework,p1
+Security,Auto Scaling launch config public IP should be disabled,AWS Well-Architected Framework,p1
+Security,Ensure the S3 bucket CloudTrail logs to is not publicly accessible,AWS Well-Architected Framework,p1
+Security,ECR repositories should prohibit public access,AWS Well-Architected Framework,p1
+Security,EKS clusters endpoint should restrict public access,AWS Well-Architected Framework,p1
+Security,ELB load balancers should prohibit public access,AWS Well-Architected Framework,p1
+Security,S3 public access should be blocked at account level,AWS Well-Architected Framework,p1
+Security,SNS topic policies should prohibit public access,AWS Well-Architected Framework,p1
+Security,SSM documents should not be public,AWS Well-Architected Framework,p1
+Security,DMS replication instances should not be publicly accessible,AWS Well-Architected Framework,p1
+Security,ES domains should be in a VPC,AWS Well-Architected Framework,p1
+Security,OpenSearch domains should be in a VPC,AWS Well-Architected Framework,p1
+Security,EC2 instances should be in a VPC,AWS Well-Architected Framework,p1
+Security,Lambda functions should be in a VPC,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instances should not have direct internet access,AWS Well-Architected Framework,p1
+Security,Secrets Manager secrets that have not been used in 90 days should be removed,AWS Well-Architected Framework,p1
+Security,CodeBuild projects should not use an user controlled buildspec,AWS Well-Architected Framework,p1
+Security,API Gateway stage logging should be enabled,AWS Well-Architected Framework,p1
+Security,OpenSearch domains should have audit logging enabled.,AWS Well-Architected Framework,p1
+Security,CloudTrail trails should be integrated with CloudWatch logs,AWS Well-Architected Framework,p1
+Security,All S3 buckets should log S3 data events in CloudTrail,AWS Well-Architected Framework,p1
+Security,ACM certificates should have transparency logging enabled,AWS Well-Architected Framework,p1
+Security,Lambda functions CloudTrail logging should be enabled,AWS Well-Architected Framework,p1
+Security,CloudFront distributions access logs should be enabled,AWS Well-Architected Framework,p1
+Security,3.10 Ensure that Object-level logging for write events is enabled for S3 bucket,AWS Well-Architected Framework,p1
+Security,3.11 Ensure that Object-level logging for read events is enabled for S3 bucket,AWS Well-Architected Framework,p1
+Security,EKS clusters should have control plane audit logging enabled,AWS Well-Architected Framework,p1
+Security,ELB application and classic load balancer logging should be enabled,AWS Well-Architected Framework,p1
+Security,RDS DB instances should be integrated with CloudWatch logs,AWS Well-Architected Framework,p1
+Security,AWS Redshift audit logging should be enabled,AWS Well-Architected Framework,p1
+Security,Route 53 zones should have query logging enabled,AWS Well-Architected Framework,p1
+Security,S3 buckets object logging should be enabled,AWS Well-Architected Framework,p1
+Security,Elasticsearch domain should send logs to CloudWatch,AWS Well-Architected Framework,p1
+Security,At least one multi-region AWS CloudTrail should be present in an account,AWS Well-Architected Framework,p1
+Security,Database logging should be enabled,AWS Well-Architected Framework,p1
+Security,Logging should be enabled on AWS WAFv2 regional and global web access control list (ACLs),AWS Well-Architected Framework,p1
+Security,At least one trail should be enabled with security best practices,AWS Well-Architected Framework,p1
+Security,AWS Redshift audit logging should be enabled,AWS Well-Architected Framework,p1
+Security,AWS Config should be enabled,AWS Well-Architected Framework,p1
+Security,BP03 Automate response to events,AWS Well-Architected Framework,p1
+Security,Elasticsearch domain should send logs to CloudWatch,AWS Well-Architected Framework,p1
+Security,ELB application and classic load balancer logging should be enabled,AWS Well-Architected Framework,p1
+Security,At least one multi-region AWS CloudTrail should be present in an account,AWS Well-Architected Framework,p1
+Security,Database logging should be enabled,AWS Well-Architected Framework,p1
+Security,Logging should be enabled on AWS WAFv2 regional and global web access control list (ACLs),AWS Well-Architected Framework,p1
+Security,At least one trail should be enabled with security best practices,AWS Well-Architected Framework,p1
+Security,AWS Redshift audit logging should be enabled,AWS Well-Architected Framework,p1
+Security,ES domains should be in a VPC,AWS Well-Architected Framework,p1
+Security,OpenSearch domains should be in a VPC,AWS Well-Architected Framework,p1
+Security,EC2 instances should be in a VPC,AWS Well-Architected Framework,p1
+Security,Lambda functions should be in a VPC,AWS Well-Architected Framework,p1
+Security,AWS Redshift enhanced VPC routing should be enabled,AWS Well-Architected Framework,p1
+Security,ELB application load balancers should have Web Application Firewall (WAF) enabled,AWS Well-Architected Framework,p1
+Security,API Gateway stage should be associated with waf,AWS Well-Architected Framework,p1
+Security,CloudFront distributions should have AWS WAF enabled,AWS Well-Architected Framework,p1
+Security,EKS clusters endpoint should restrict public access,AWS Well-Architected Framework,p1
+Security,SageMaker models should have network isolation enabled,AWS Well-Architected Framework,p1
+Security,SageMaker models should be in a VPC,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instances should be in a VPC,AWS Well-Architected Framework,p1
+Security,SageMaker training jobs should have network isolation enabled,AWS Well-Architected Framework,p1
+Security,SageMaker training jobs should be in VPC,AWS Well-Architected Framework,p1
+Security,DMS replication instances should not be publicly accessible,AWS Well-Architected Framework,p1
+Security,EBS snapshots should not be publicly restorable,AWS Well-Architected Framework,p1
+Security,EC2 instances should not use multiple ENIs,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instances should not have direct internet access,AWS Well-Architected Framework,p1
+Security,VPC subnet auto assign public IP should be disabled,AWS Well-Architected Framework,p1
+Security,VPC default security group should not allow inbound and outbound traffic,AWS Well-Architected Framework,p1
+Security,API Gateway stages should have authorizers configured,AWS Well-Architected Framework,p1
+Security,S3 buckets access control lists (ACLs) should not be used to manage user access to buckets,AWS Well-Architected Framework,p1
+Security,DMS replication instances should not be publicly accessible,AWS Well-Architected Framework,p1
+Security,Auto Scaling launch config public IP should be disabled,AWS Well-Architected Framework,p1
+Security,Network ACLs should not allow ingress from 0.0.0.0/0 to port 22 or port 3389,AWS Well-Architected Framework,p1
+Security,5.2 Ensure no security groups allow ingress from 0.0.0.0/0 to remote server administration ports,AWS Well-Architected Framework,p1
+Security,VPC security groups should restrict ingress TCP and UDP access from 0.0.0.0/0,AWS Well-Architected Framework,p1
+Security,VPC security groups should restrict ingress Kafka port access from 0.0.0.0/0,AWS Well-Architected Framework,p1
+Security,Security groups should not allow unrestricted access to ports with high risk,AWS Well-Architected Framework,p1
+Security,VPC security groups should restrict ingress redis access from 0.0.0.0/0,AWS Well-Architected Framework,p1
+Security,WAF global web ACL should have at least one rule or rule group,AWS Well-Architected Framework,p1
+Security,VPC default security group should not allow inbound and outbound traffic,AWS Well-Architected Framework,p1
+Security,EC2 instances should not be attached to 'launch wizard' security groups,AWS Well-Architected Framework,p1
+Security,Route53 domains privacy protection should be enabled,AWS Well-Architected Framework,p1
+Security,Route 53 domains should have transfer lock enabled,AWS Well-Architected Framework,p1
+Security,GuardDuty should be enabled,AWS Well-Architected Framework,p1
+Security,API Gateway stages should have authorizers configured,AWS Well-Architected Framework,p1
+Security,RDS DB instance automatic minor version upgrade should be enabled,AWS Well-Architected Framework,p1
+Security,CloudTrail trail log file validation should be enabled,AWS Well-Architected Framework,p1
+Security,At least one trail should be enabled with security best practices,AWS Well-Architected Framework,p1
+Security,EC2 instances should use IMDSv2,AWS Well-Architected Framework,p1
+Security,Public EC2 instances should have IAM profile attached,AWS Well-Architected Framework,p1
+Security,SSM managed instance patching should be compliant,AWS Well-Architected Framework,p1
+Security,Lambda functions should be in a VPC,AWS Well-Architected Framework,p1
+Security,ECS clusters should have container insights enabled,AWS Well-Architected Framework,p1
+Security,ECS fargate services should run on the latest fargate platform version,AWS Well-Architected Framework,p1
+Security,AWS Redshift should have required maintenance settings,AWS Well-Architected Framework,p1
+Security,EC2 instances should not use multiple ENIs,AWS Well-Architected Framework,p1
+Security,EC2 instances should have IAM profile attached,AWS Well-Architected Framework,p1
+Security,EC2 instances should be managed by AWS Systems Manager,AWS Well-Architected Framework,p1
+Security,EC2 instances should not use multiple ENIs,AWS Well-Architected Framework,p1
+Security,EC2 stopped instances should be removed in 30 days,AWS Well-Architected Framework,p1
+Security,EC2 instances should have IAM profile attached,AWS Well-Architected Framework,p1
+Security,EC2 instances should be managed by AWS Systems Manager,AWS Well-Architected Framework,p1
+Security,EC2 instances should not use multiple ENIs,AWS Well-Architected Framework,p1
+Security,EC2 stopped instances should be removed in 30 days,AWS Well-Architected Framework,p1
+Security,EBS volumes should be attached to EC2 instances,AWS Well-Architected Framework,p1
+Security,SSM managed instance patching should be compliant,AWS Well-Architected Framework,p1
+Security,CloudTrail trail log file validation should be enabled,AWS Well-Architected Framework,p1
+Security,API Gateway stage cache encryption at rest should be enabled,AWS Well-Architected Framework,p1
+Security,Backup recovery points should be encrypted,AWS Well-Architected Framework,p1
+Security,CodeBuild project artifact encryption should be enabled,AWS Well-Architected Framework,p1
+Security,CodeBuild project S3 logs should be encrypted,AWS Well-Architected Framework,p1
+Security,KMS keys should not be pending deletion,AWS Well-Architected Framework,p1
+Security,BP02 Enforce encryption at rest,AWS Well-Architected Framework,p1
+Security,EFS file system encryption at rest should be enabled,AWS Well-Architected Framework,p1
+Security,ES domain encryption at rest should be enabled,AWS Well-Architected Framework,p1
+Security,OpenSearch domains should have encryption at rest enabled,AWS Well-Architected Framework,p1
+Security,RDS DB instance encryption at rest should be enabled,AWS Well-Architected Framework,p1
+Security,RDS DB snapshots should be encrypted at rest,AWS Well-Architected Framework,p1
+Security,CloudTrail trail logs should be encrypted with KMS CMK,AWS Well-Architected Framework,p1
+Security,DynamoDB table should have encryption enabled,AWS Well-Architected Framework,p1
+Security,EBS default encryption should be enabled,AWS Well-Architected Framework,p1
+Security,EKS clusters should be configured to have kubernetes secrets encrypted using KMS,AWS Well-Architected Framework,p1
+Security,Glue dev endpoints CloudWatch logs encryption should be enabled,AWS Well-Architected Framework,p1
+Security,Glue dev endpoints job bookmark encryption should be enabled,AWS Well-Architected Framework,p1
+Security,Glue dev endpoints S3 encryption should be enabled,AWS Well-Architected Framework,p1
+Security,Glue jobs S3 encryption should be enabled,AWS Well-Architected Framework,p1
+Security,Glue jobs bookmarks encryption should be enabled,AWS Well-Architected Framework,p1
+Security,Glue jobs CloudWatch logs encryption should be enabled,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instances should be encrypted using CMK,AWS Well-Architected Framework,p1
+Security,SageMaker training jobs should be enabled with inter-container traffic encryption,AWS Well-Architected Framework,p1
+Security,SageMaker training jobs volumes and outputs should have KMS encryption enabled,AWS Well-Architected Framework,p1
+Security,AWS Redshift audit logging should be enabled,AWS Well-Architected Framework,p1
+Security,AWS Redshift clusters should be encrypted with KMS,AWS Well-Architected Framework,p1
+Security,S3 bucket default encryption should be enabled,AWS Well-Architected Framework,p1
+Security,SageMaker endpoint configuration encryption should be enabled,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instance encryption should be enabled,AWS Well-Architected Framework,p1
+Security,SageMaker notebook instances should be encrypted using CMK,AWS Well-Architected Framework,p1
+Security,SNS topics should be encrypted at rest,AWS Well-Architected Framework,p1
+Security,S3 bucket versioning should be enabled,AWS Well-Architected Framework,p1
+Security,AWS account should be part of AWS Organizations,AWS Well-Architected Framework,p1
+Security,ACM certificates should not expire within 30 days,AWS Well-Architected Framework,p1
+Security,ELB classic load balancers should use SSL certificates,AWS Well-Architected Framework,p1
+Security,ELB application and network load balancers should only use SSL or HTTPS listeners,AWS Well-Architected Framework,p1
+Security,ELB application load balancers should be drop HTTP headers,AWS Well-Architected Framework,p1
+Security,ELB application load balancers should redirect HTTP requests to HTTPS,AWS Well-Architected Framework,p1
+Security,Elasticsearch domain node-to-node encryption should be enabled,AWS Well-Architected Framework,p1
+Security,API Gateway stage should uses SSL certificate,AWS Well-Architected Framework,p1
+Security,OpenSearch domains node-to-node encryption should be enabled,AWS Well-Architected Framework,p1
+Security,OpenSearch domains should use HTTPS,AWS Well-Architected Framework,p1
+Security,CloudFront distributions should encrypt traffic to custom origins,AWS Well-Architected Framework,p1
+Security,CloudFront distributions should not use deprecated SSL protocols between edge locations and custom origins,AWS Well-Architected Framework,p1
+Security,ELB listeners should use secure SSL cipher,AWS Well-Architected Framework,p1
+Security,S3 buckets should enforce SSL,AWS Well-Architected Framework,p1
+Security,Redshift cluster encryption in transit should be enabled,AWS Well-Architected Framework,p1
+Security,ELB classic load balancers should only use SSL or HTTPS listeners,AWS Well-Architected Framework,p1
+Security,Ensure a support role has been created to manage incidents with AWS Support,AWS Well-Architected Framework,p1
+Security,ECR repositories should have image scan on push enabled,AWS Well-Architected Framework,p1
+Security Hub,AWS Security Hub should be enabled for an AWS Account,Compliance,p1
+SNS,SNS topics should be encrypted at rest,Compliance,p1
+SNS,SNS topic policies should prohibit cross account access,Compliance,p1
+SNS,SNS topic policies should prohibit public access,Compliance,p1
+SNS,SNS topic policies should prohibit subscription public access,Compliance,p1
+SSM,EC2 instances should be managed by AWS Systems Manager,Compliance,p1
+SSM,SSM documents should not be public,Compliance,p1
+SSM,SSM managed instance patching should be compliant,Compliance,p1
+Step Functions,Step Functions state machines should have logging turned on,Compliance,p1
+VPC,VPC default security group should not allow inbound and outbound traffic,Compliance,p1
+VPC,Network ACLs should not allow ingress from 0.0.0.0/0 to port 22 or port 3389,Compliance,p1
+VPC,VPC security groups should restrict ingress from 0.0.0.0/0 or ::/0 to cassandra ports 7199 or 9160 or 8888,Compliance,p1
+VPC,VPC security groups should restrict ingress from 0.0.0.0/0 or ::/0 to memcached port 11211,Compliance,p1
+VPC,VPC security groups should restrict ingress from 0.0.0.0/0 or ::/0 to mongoDB ports 27017 and 27018,Compliance,p1
+VPC,VPC security groups should restrict ingress from 0.0.0.0/0 or ::/0 to oracle ports 1521 or 2483,Compliance,p1
+VPC,Ensure no security groups allow ingress from 0.0.0.0/0 to remote server administration ports,Compliance,p1
+VPC,Ensure no security groups allow ingress from ::/0 to remote server administration ports,Compliance,p1
+VPC,Ensure no security groups allow ingress from 0.0.0.0/0 to remote server administration ports,Compliance,p1
+VPC,VPC security groups should restrict ingress Kafka port access from 0.0.0.0/0,Compliance,p1
+VPC,VPC security groups should restrict ingress kibana port access from 0.0.0.0/0,Compliance,p1
+VPC,Ensure no security groups allow ingress from 0.0.0.0/0 to port 3389,Compliance,p1
+VPC,VPC security groups should restrict ingress redis access from 0.0.0.0/0,Compliance,p1
+VPC,VPC security groups should restrict ingress SSH access from 0.0.0.0/0,Compliance,p1
+VPC,VPC security groups should restrict ingress TCP and UDP access from 0.0.0.0/0,Compliance,p1
+VPC,Security groups should not allow unrestricted access to ports with high risk,Compliance,p1
+VPC,VPC subnet auto assign public IP should be disabled,Compliance,p1
+VPC,VPCs should have both public and private subnets configured,Compliance,p1
+WAF,WAF web ACL logging should be enabled,Compliance,p1
+WAF,WAF global web ACL should have at least one rule or rule group,Compliance,p1
+WAFv2,Logging should be enabled on AWS WAFv2 regional and global web access control list (ACLs),Compliance,p1
