@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+from datetime import datetime
 
 def create_final_optimized_report(report_file, final_report_file):
     # Detect the file extension and read accordingly
@@ -29,9 +30,16 @@ def main():
     # Ask the user to input the report file name
     report_file = input("Enter the report file name (e.g., aws_compliance_benchmark_all_controls_benchmark_vested_with_priorities.csv): ").strip()
     
+    # Get the input file's base name (without path) and extension
+    base_name = os.path.splitext(os.path.basename(report_file))[0]
+    
+    # Create a unique file name using a timestamp
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    unique_file_name = f"{base_name}_final_optimized_report_{timestamp}.csv"
+    
     # Set the output path to the reports directory
     reports_directory = os.path.dirname(os.path.abspath(__file__))  # Get the current script's directory
-    final_report_file = os.path.join(reports_directory, 'aws_compliance_benchmark_all_controls_benchmark_final_optimized_report.csv')
+    final_report_file = os.path.join(reports_directory, unique_file_name)
 
     # Ask if the user wants to create the final report
     create_report = input("Do you want to create the final optimized report? (yes/no): ").strip().lower()
